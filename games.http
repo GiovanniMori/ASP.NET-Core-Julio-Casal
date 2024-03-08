@@ -1,0 +1,30 @@
+GET http://localhost:5227/games
+
+### 
+GET http://localhost:5227/games/2
+
+###
+POST http://localhost:5227/games
+Content-Type: application/json
+
+{
+		"name": "Game 1",
+		"description": "Description 1",
+		"price": 100,
+		"releaseDate": "2019-01-01"
+}
+
+###
+PUT http://localhost:5227/games/2
+Content-Type: application/json
+
+{
+		"name": "Modded Game 2",
+		"description": "Description 1",
+		"price": 1,
+		"releaseDate": "2019-01-01",
+}
+
+###
+DELETE http://localhost:5227/games/1
+
