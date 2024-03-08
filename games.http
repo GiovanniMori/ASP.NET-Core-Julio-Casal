@@ -8,7 +8,7 @@ POST http://localhost:5227/games
 Content-Type: application/json
 
 {
-		"name": "Game 1",
+		"name": "",
 		"description": "Description 1",
 		"price": 100,
 		"releaseDate": "2019-01-01"
